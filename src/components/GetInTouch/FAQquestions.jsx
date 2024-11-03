@@ -79,7 +79,7 @@ function FAQquestions() {
                   tunnel to safeguard all transactional data that is masked and
                   communicated through a secure private network to ensure
                   highest levels of transmission safety. Ensuring your
-                  customers' information remains protected from cyber threats.
+                  customer&apos;s information remains protected from cyber threats.
                 </p>
               }
               title=" How secure are POS transactions, and what measures are in place to protect my customers data?"
@@ -133,7 +133,7 @@ function FAQquestions() {
               content={
                 <p>
                   {" "}
-                  Absolutely! PaySa's POS terminal is equipped to accept various
+                  Absolutely! PaySa&apos;s POS terminal is equipped to accept various
                   payment methods, including credit cards, debit cards, mobile
                   wallets, and more, offering your customers a wide range of
                   payment options.
