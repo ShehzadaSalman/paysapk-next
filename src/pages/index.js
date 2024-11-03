@@ -54,7 +54,7 @@ export default function Home() {
             onClose={() => setMapPopupState(false)}
           ></MapPopup>
         </div>
-        {/* <Footer /> */}
+        <div className="py-12"></div>
       </div>
     </>
   );

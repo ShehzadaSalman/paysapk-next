@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button";
-import { Link } from "next/link";
+import Link from "next/link";
 
 function HiringSection() {
   return (
@@ -25,7 +25,6 @@ function HiringSection() {
           }}
           className="absolute pt-12 pb-12 px-12  text-white md:right-96 p-6 max-w-[512px] min-h-[498px] md:top-36 top-[40px] rounded-2xl"
         >
-
           <div class="mt-4">
             <p>
               Thank you for your interest in joining our company!
@@ -33,23 +32,23 @@ function HiringSection() {
               <br />
             </p>
 
-
             <p>
-              While we currently do not have any open positions, we are always on the lookout for talented individuals who can contribute to our success. If you believe you have the skills and passion to be part of our team, we encourage you to fill out the application form below. Our team will review your application and keep it on file for future opportunities. We appreciate your interest and look forward to potentially working together!
+              While we currently do not have any open positions, we are always
+              on the lookout for talented individuals who can contribute to our
+              success. If you believe you have the skills and passion to be part
+              of our team, we encourage you to fill out the application form
+              below. Our team will review your application and keep it on file
+              for future opportunities. We appreciate your interest and look
+              forward to potentially working together!
             </p>
           </div>
-
-
-
 
           <div class="mt-24">
             <Link href="https://forms.gle/L1GRJfyrHCmbuPT99">
               <Button title="Apply Now" isPrimary={false} isChevronEnabled />
             </Link>
           </div>
-
         </div>
-
       </div>
     </div>
   );

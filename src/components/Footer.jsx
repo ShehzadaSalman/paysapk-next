@@ -1,18 +1,15 @@
 import React from "react";
-import FooterLogo from "../images/footer-logo.svg";
-import FbIcon from "../images/social-icons/facebook.svg";
-import LinkedinIcon from "../images/social-icons/linkedin.svg";
-import InstaIcon from "../images/social-icons/instagram.png";
-import TwitterIcon from "../images/social-icons/twitter.svg";
-import TikTokIcon from "../images/social-icons/tik_tok.svg";
-import ThreadIcon from "../images/social-icons/threads.svg";
-import { Link } from "next/link";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className="">
       <div className="flex  justify-center my-[70px]">
-        <img src={FooterLogo} alt="icon" className="h-[100px] md:h-auto " />
+        <img
+          src={"/footer-logo.svg"}
+          alt="icon"
+          className="h-[100px] md:h-auto "
+        />
       </div>
       <div>
         <div
@@ -49,12 +46,28 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="items-center hidden space-x-4 text-2xl md:flex">
-          <img src={FbIcon} alt="icon" className="mx-1" />
-          <img src={LinkedinIcon} alt="icon" className="" />
-          <img src={InstaIcon} alt="icon" className="" />
-          <img src={TwitterIcon} alt="icon" className="" />
-          <img src={TikTokIcon} alt="icon" className="" />
-          <img src={ThreadIcon} alt="icon" className="" />
+          <Link href={"https://www.facebook.com/paysa.technologies/"}>
+            <img
+              src={"social-icons/facebook.svg"}
+              alt="icon"
+              className="mx-1"
+            />
+          </Link>
+          <Link href={"https://pk.linkedin.com/company/paysatechnologies"}>
+            <img src={"social-icons/linkedin.svg"} alt="icon" className="" />
+          </Link>
+          <Link href={"https://www.instagram.com/paysa_tech/"}>
+            <img src={"social-icons/instagram.png"} alt="icon" className="" />
+          </Link>
+          <Link href={"https://twitter.com/PaySa_pk"}>
+            <img src={"social-icons/twitter.svg"} alt="icon" className="" />
+          </Link>
+          <Link href={"https://www.tiktok.com/@paysa_tech"}>
+            <img src={"social-icons/tik_tok.svg"} alt="icon" className="" />
+          </Link>
+          <Link href={"https://www.threads.net/@paysa_tech"}>
+            <img src={"social-icons/threads.svg"} alt="icon" className="" />
+          </Link>
         </div>
 
         {/* Location Links */}
@@ -72,23 +85,27 @@ const Footer = () => {
 
         <div className="flex items-center space-x-4 text-2xl md:hidden">
           <Link href={"https://www.facebook.com/paysa.technologies/"}>
-            <img src={FbIcon} alt="icon" className="mx-1" />
+            <img
+              src={"social-icons/facebook.svg"}
+              alt="icon"
+              className="mx-1"
+            />
           </Link>
           <Link href={"https://pk.linkedin.com/company/paysatechnologies"}>
             {" "}
-            <img src={LinkedinIcon} alt="icon" className="" />
+            <img src={"social-icons/linkedin.svg"} alt="icon" className="" />
           </Link>{" "}
           <Link href={"https://www.instagram.com/paysa_tech/"}>
-            <img src={InstaIcon} alt="icon" className="" />
+            <img src={"social-icons/instagram.png"} alt="icon" className="" />
           </Link>
           <Link href={"https://twitter.com/PaySa_pk"}>
-            <img src={TwitterIcon} alt="icon" className="" />
+            <img src={"social-icons/twitter.svg"} alt="icon" className="" />
           </Link>
           <Link href={"https://www.tiktok.com/@paysa_tech"}>
-            <img src={TikTokIcon} alt="icon" className="" />
+            <img src={"social-icons/tik_tok.svg"} alt="icon" className="" />
           </Link>
           <Link href={"https://www.threads.net/@paysa_tech"}>
-            <img src={ThreadIcon} alt="icon" className="" />
+            <img src={"social-icons/threads.svg"} alt="icon" className="" />
           </Link>
         </div>
       </div>

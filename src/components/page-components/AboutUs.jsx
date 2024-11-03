@@ -1,13 +1,11 @@
 import React from "react";
-import Navbar from "../components/Home/Navbar";
-import BannerWithoutVideo from "../components/BannerWithoutVideo";
-import AboutUsCarouselCard from "../components/AboutUs/AboutUsCarouselCard";
-import AboutUsCardsSection from "../components/AboutUs/AboutUsCardsSection";
-import Button from "../components/Button";
-import CareerSection from "../components/AboutUs/CareerSection";
-import HiringSection from "../components/AboutUs/HiringSection";
-import Footer from "../components/Footer";
-import AboutUsCarouselSection from "../components/AboutUs/AboutUsCarouselSection";
+import Navbar from "org/components/Navbar";
+import BannerWithoutVideo from "org/components/BannerWithoutVideo";
+import AboutUsCardsSection from "org/components/AboutUs/AboutUsCardsSection";
+import Button from "org/components/Button";
+import CareerSection from "org/components/AboutUs/CareerSection";
+import HiringSection from "org/components/AboutUs/HiringSection";
+import AboutUsCarouselSection from "org/components/AboutUs/AboutUsCarouselSection";
 
 function AboutUs() {
   return (
@@ -51,13 +49,13 @@ function AboutUs() {
             <br />
             <br />
             With renewed commitment from the State Bank of Pakistan, we seized
-            the opportunity to contribute to the nation's digital
+            the opportunity to contribute to the nation&apos;s digital
             transformation. In just one year, PaySa evolved from a concept to a
             fully operational powerhouse, exceeding annual targets within two
             months. With dedication to innovation and stakeholder satisfaction,
-            we're shaping a brighter future for banking services in Pakistan.
-            Proudly serving major industries across sixteen cities, we're
-            committed to making a lasting impact.
+            we&apos;re shaping a brighter future for banking services in
+            Pakistan. Proudly serving major industries across sixteen cities,
+            we&apos;re committed to making a lasting impact.
             <br />
             <br />
             <strong>Ali Adnan</strong>
@@ -84,7 +82,6 @@ function AboutUs() {
       </div>
       <CareerSection />
       <HiringSection />
-      <Footer />
     </div>
   );
 }

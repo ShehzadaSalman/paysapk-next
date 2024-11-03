@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUsCard from "../Home/AboutUsCard";
+import AboutUsCard from "org/components/AboutUsCard";
 
 function AboutUsCardsSection() {
   return (

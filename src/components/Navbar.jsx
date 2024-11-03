@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SiteLogo from "org/images/logo.svg";
 import Link from "next/link";
+import MenuPopup from "org/components/MenuPopup";
 
 function Navbar() {
   const [showMenuPopup, setShowMenuPopup] = useState(false);
@@ -19,7 +20,7 @@ function Navbar() {
 
         <div className="flex justify-center flex-1 cursor-pointer">
           <Link href="/">
-            <img src={"/logo.svg"} alt="logo" style={{ height: "30px" }} />
+            <img src={"/logo.svg"} alt="logo" style={{ height: "50px" }} />
           </Link>
         </div>
 
@@ -31,12 +32,12 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      {/* {showMenuPopup && (
+      {showMenuPopup && (
         <MenuPopup
           showMenuPopup={showMenuPopup}
           setShowMenuPopup={setShowMenuPopup}
         />
-      )} */}
+      )}
     </div>
   );
 }
