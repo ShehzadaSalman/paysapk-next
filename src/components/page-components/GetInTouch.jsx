@@ -1,9 +1,8 @@
 import React from "react";
-import HeroSection from "../components/GetInTouch/HeroSection";
-import EmailSection from "../components/GetInTouch/EmailSection";
-import FAQbanner from "../components/GetInTouch/FAQbanner";
-import FAQquestions from "../components/GetInTouch/FAQquestions";
-import Footer from "../components/Footer";
+import HeroSection from "org/components/GetInTouch/HeroSection";
+import EmailSection from "org/components/GetInTouch/EmailSection";
+import FAQbanner from "org/components/GetInTouch/FAQbanner";
+import FAQquestions from "org/components/GetInTouch/FAQquestions";
 
 function GetInTouch() {
   return (
@@ -12,7 +11,6 @@ function GetInTouch() {
       <EmailSection />
       <FAQbanner />
       <FAQquestions />
-      <Footer />
     </div>
   );
 }

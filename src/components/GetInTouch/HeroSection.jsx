@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../Home/Navbar";
-import BannerWithoutVideo from "../BannerWithoutVideo";
-import PinLocation from "./PinLocation";
+import Navbar from "org/components/Navbar";
+import BannerWithoutVideo from "org/components/BannerWithoutVideo";
+import PinLocation from "org/components/GetInTouch/PinLocation";
 
 function HeroSection() {
   return (
